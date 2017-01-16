@@ -1,0 +1,1 @@
+This is the directory that the HLS files are written to.

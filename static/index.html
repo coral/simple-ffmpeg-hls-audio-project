@@ -1,0 +1,22 @@
+<head>
+  <link href="/js/video-js-5.16.0/video-js.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <audio id=audio-stream width=500 height=300 class="video-js vjs-default-skin" controls preload="auto" poster="/img/cover.jpg">
+    <source
+    src="/media/hls/out.m3u8"
+    type="application/x-mpegURL">
+  </audio>
+
+
+  <script src="/js/video-js-5.16.0/video.js"></script>
+  <script src="/js/videojs-contrib-hls.js"></script>
+
+  <script>
+    var player = videojs('audio-stream');
+    player.play();
+  </script>
+
+</body>
